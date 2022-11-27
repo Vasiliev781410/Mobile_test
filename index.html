@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/sass/main.css">  
+    <title>Document</title>
+</head>
+<body> 
+    <header>
+        <button type="button" 
+        class="menu-toggle js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu">
+        <svg
+            width="40"
+            height="40"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd">
+            </path>
+        </svg>                
+     </button>  
+    </header> 
+    <main>
+        <p id="features">1. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis deserunt esse commodi temporibus dolor, exercitationem, at illum quia illo, repellendus cum reiciendis est rem nemo veniam ullam? Voluptate, velit atque odit molestiae saepe quos laudantium necessitatibus illo sunt ipsam, fugiat ad voluptas aliquid maiores officiis voluptatem dolores eaque tempore. Quia nihil, nostrum consequatur modi cumque at vero itaque laboriosam blanditiis, porro tenetur, quas perspiciatis amet maiores ratione quos eveniet eaque. Voluptas voluptates, sed error sunt facilis ea modi maiores! Deserunt quia veritatis enim numquam asperiores accusamus, temporibus placeat reprehenderit doloribus nisi sunt omnis non possimus vel fugit? A, suscipit rerum.</p>
+
+        <p id="team">2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eius exercitationem porro voluptatibus. Quidem sed quas tempore similique accusamus illo molestias rem, ab adipisci laudantium, error vero repellat sapiente dicta asperiores ullam nesciunt aspernatur modi officia! Iste amet perferendis architecto suscipit, et voluptatum iusto delectus velit autem dolorem, facilis consequatur ad dolor ipsam cupiditate corrupti ratione odio molestiae tenetur vitae commodi alias non nesciunt. Dolores laborum amet alias mollitia repudiandae consequuntur iure similique. Consequuntur accusamus nulla neque ex. Fugiat sequi eum veniam voluptatum earum, inventore minus saepe modi unde, quia, consequuntur dolores delectus laudantium nisi iste. Eligendi reprehenderit amet sed!</p>
+
+        <p id="testimonials">3. Lorem ipsum dolor sit amet consectetur adipisicing elit. tenetur, vel consectetur aspernatur temporibus sequi! Autem voluptas adipisci molestias odit repellendus enim quisquam, at officiis. Ea alias sed, odit totam, veritatis laudantium. Corrupti reiciendis magnam animi perspiciatis beatae in culpa natus debitis iure, quasi saepe dolorem consequatur? Deleniti, id doloremque. Totam facere blanditiis inventore accusamus! Voluptatibus, sunt? Velit, quam, est aspernatur eligendi omnis accusantium nihil eos aperiam amet qui modi autem rem id officiis repellat aut, incidunt iste. Pariatur necessitatibus velit iste possimus perferendis sit cupiditate mollitia error dolorum? Aspernatur, ullam placeat obcaecati tempora iure nisi velit veniam cumque cum fugiat pariatur, similique aliquid nemo sed et sint consequatur vero, est culpa iste! Vitae libero velit molestias nulla commodi optio dolor eaque explicabo illum cum, earum beatae tenetur fugiat debitis aliquid, cupiditate perferendis quae. Neque, numquam autem sit officiis maiores nisi nesciunt. Alias, facere deleniti! Saepe, recusandae. Magni, unde sint quaerat beatae ullam esse eius, a eaque distinctio reiciendis laborum eligendi nesciunt quis obcaecati natus quibusdam, consequatur corrupti. Hic repellendus beatae pariatur, illo non perferendis. Sit accusamus cupiditate ipsum ratione quod, aspernatur dicta reiciendis repellat eius doloribus quis hic iste ex! Animi pariatur accusamus ex et sint qui natus dolor. Quasi facilis fugit saepe cupiditate commodi?            
+        </p>
+
+        <p id="contacts">4. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, sint error optio exercitationem deleniti alias est. Non, maxime delectus dolor ab quibusdam modi, cum voluptas dolore natus rem eligendi praesentium!</p>
+    </main>
+
+    <div class="menu-container js-menu-container" id="mobile-menu">          
+        <div class="mobile-menu"> 
+            <div class="mobile-menu__header">            
+                <a href="./index.html" class="logo">Mobileapp</a>  
+                <button class="menu-toggle js-close-menu">
+                    <svg class=""       
+                        width="32"
+                        height="32"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            fill-rule="evenodd"
+                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" 
+                            clip-rule="evenodd">
+                        </path>
+                    </svg>                                   
+                </button>  
+            </div>                
+            <!-- navigation -->
+           <nav class="nav-mobile">                
+              <ul class="nav-mobile__list">                  
+                <li class="nav-mobile__item">
+                      <a class="nav-mobile__link nav-mobile__link--current" href="./index.html">HOME</a>                        
+                </li>
+                <li class="nav-mobile__item">
+                        <a  class="nav-mobile__link nav-mobile__link--about" href="#">About us</a>
+                </li>
+                <li class="nav-mobile__item nav-mobile__item--about">
+                    <a  class="nav-mobile__link js-close-menu1" href="#features">FEATURES</a> 
+                </li>
+                <li class="nav-mobile__item">
+                      <a  class="nav-mobile__link js-close-menu2" href="#team">TEAM</a>
+                </li> 
+                <li class="nav-mobile__item">
+                    <a  class="nav-mobile__link js-close-menu3" href="#testimonials">TESTIMONIALS</a>
+                </li>                               
+                <li class="nav-mobile__item">
+                    <a  class="nav-mobile__link js-close-menu4" href="#contacts">CONTACT</a>
+                </li>               
+              </ul>
+              <!-- <button class="menu-toggle"><a  class="nav-mobile__link" href="#features">FEATURES</a></button>  -->
+           </nav>
+        </div>
+    </div> 
+
+    <button type="button" class="button-accent" data-modal-open>
+        Download
+    </button>
+
+    <!-- back drop -->        
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="button-close" data-modal-close></button>
+            <form class="form-order">                   
+                <div class="form-order__set">                   
+                    <legend class="form-order__caption">Download</legend>  
+                    <ul role="none" class="form-order__list">                        
+                        <li class="form-order__item"> 
+                            <div class="form-order__background">
+                                <span class="icon"></span>              
+                                <label class="form-order__label form-order--agreement" for="check-free">
+                                    Download free plan
+                                    <input class="form-order__checkbox" type="checkbox" name="check-free" 
+                                    id="check-free">                                                                  
+                                </label>  
+                                <div class="form-order__card"> 
+                                    <span class="icon-check"></span>                             
+                                    <span class="form-order__text-agreement">Donec posuere augue venenatis, aliquet</span>
+                                </div>
+                                <div class="form-order__card">                         
+                                    <span class="icon-check"></span>                             
+                                    <span class="form-order__text-agreement">Donec posuere augue venenatis, aliquet</span> 
+                                </div>
+                            </div>
+                        </li>
+                        <li class="form-order__item">
+                            <div class="form-order__background">
+                                <span class="icon"></span>              
+                                <label class="form-order__label form-order--agreement" for="check-paid">
+                                    Download for 20$
+                                    <input class="form-order__checkbox" type="checkbox" name="check-paid" 
+                                    id="check-paid">                                                                  
+                                </label>  
+                                <div class="form-order__card"> 
+                                    <span class="icon-check"></span>                             
+                                    <span class="form-order__text-agreement">Donec posuere augue venenatis, aliquet</span>
+                                </div>
+                                <div class="form-order__card">                         
+                                    <span class="icon-check"></span>                             
+                                    <span class="form-order__text-agreement">Donec posuere augue venenatis, aliquet</span> 
+                                </div> 
+                                <div class="form-order__card">                         
+                                    <span class="icon-check"></span>                             
+                                    <span class="form-order__text-agreement">Donec posuere augue venenatis, aliquet</span> 
+                                </div>
+                            </div>                                                                                                 
+                        </li>
+                    </ul>
+                </div>
+                <p class="form-order__description">Nunc vulputate nibh sed congue facilisis. Curabitur posuere scelerisque neque. In sit amet lectus non lacus </p>
+                <ul class="properties">
+                    <li class="properties__block">
+                        <ul class="properties__list">
+                            <li class="properties__item">
+                                <span class="icon-property icon-property--1"></span> 
+                                <div class="icon-property-container">
+                                    <span class="properties__parameter">App name</span>
+                                    <span class="properties__value">Mobileapp.layout</span>
+                                </div>
+                            </li>
+                            <li class="properties__item">
+                                <span class="icon-property icon-property--2"></span> 
+                                <div class="icon-property-container">
+                                    <span class="properties__parameter">License</span>
+                                    <span class="properties__value">Free</span>
+                                </div>
+                            </li>
+                            <li class="properties__item">
+                                <span class="icon-property icon-property--3"></span> 
+                                <div class="icon-property-container">
+                                    <span class="properties__parameter">Author</span>
+                                    <span class="properties__value">Mobile Marrket App.com</span>
+                                </div>
+                            </li>
+                            <li class="properties__item">
+                                <span class="icon-property icon-property--4"></span>
+                                <div class="icon-property-container">
+                                    <span class="properties__parameter">Data</span>
+                                    <span class="properties__value">21.02.2022</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="properties__block properties__block--second">
+                        <ul class="properties__list">
+                            <li class="properties__item">
+                                <span class="icon-property icon-property--5"></span>
+                                <div class="icon-property-container">
+                                    <span class="properties__parameter">OC</span>
+                                    <span class="properties__value">Windows</span>
+                                </div>
+                            </li>
+                            <li class="properties__item">
+                                <span class="icon-property icon-property--6"></span>
+                                <div class="icon-property-container">
+                                    <span class="properties__parameter">Language</span>
+                                    <span class="properties__value">English</span>
+                                </div>
+                            </li>
+                            <li class="properties__item">
+                                <span class="icon-property icon-property--7"></span>
+                                <div class="icon-property-container">                                    
+                                    <span class="properties__parameter">Size</span>
+                                    <span class="properties__value">4.16 MB</span>
+                                </div>
+                            </li>
+                            <li class="properties__item">
+                                <span class="icon-property icon-property--8"></span>
+                                <div class="icon-property-container">
+                                    <span class="properties__parameter">Downloads</span>
+                                    <span class="properties__value">964</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <button type="submit" class="button-send button-accent">Download</button>
+            </form>
+        </div>
+    </div>
+    <script src="./src/js/modal.js"></script>  
+    <script
+        defer
+        src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous">
+    </script>
+    <script defer src="./src/js/mobile-menu.js"></script>        
+</body>
+</html>

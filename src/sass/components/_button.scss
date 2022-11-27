@@ -1,0 +1,41 @@
+.button-close{
+    padding: 0;
+    position: absolute; 
+    top: 20px;
+    right: 20px;
+    width: 24px;
+    height: 24px; 
+    @media screen and (min-width:768px){
+        width: 28px;
+        height: 28px;        
+    }    
+    border: none;  
+    background-image: url('../images/ep_close.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(7, 8, 28, 1);      
+}
+
+.button-accent{
+    padding: 0;
+    margin: 0; 
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;         
+    border: none;
+    height: 42px; 
+    width: 200px;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.875;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+
+    background: linear-gradient(90.03deg, #00C5EB -1.97%, #B544FE 89.43%);
+    border-radius: 5px;
+}
